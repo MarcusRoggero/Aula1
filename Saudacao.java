@@ -23,9 +23,13 @@ class Saudacao {
 
 		System.out.println(areaTriangulo(base, altura));
 
-		} else {
+		} else if (tipoForma.equals("Retangulo")) {
 
 			System.out.println(areaRetangulo(base, altura));
+
+		} else {
+
+			System.out.println("Voce é burro fdp?");
 
 		}
 
